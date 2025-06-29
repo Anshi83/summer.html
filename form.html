@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        * {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        
+        .card {
+            border: 2px solid blue;
+            width: 20%;
+            padding: 40px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            box-shadow: 3px 3px 5px 0 black;
+            background-color: white;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(https://images.unsplash.com/photo-1616088410192-d1b123712994?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWluaW1hbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D);
+        }
+        
+        .text-input {
+            width: 100%;
+            padding: 10px 15px;
+            box-sizing: border-box;
+            margin-bottom: 20ox;
+            margin-top: 5px;
+        }
+        
+        .submit-btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: rebeccapurple;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        .link {
+            text-decoration: none;
+            color: rebeccapurple;
+            display: block;
+        }
+        
+        .forgot-link {
+            text-align: right;
+        }
+        
+        .signup-link {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <h2 class="form-title">login forrm</h2>
+        <form>
+            <label for="">email adress</label>
+            <input type="email" class="text-input">
+            <br>
+            <br>
+            <label for="">password</label>
+            <input type="password" class="text-input">
+            <br>
+            <br>
+            <a href="" class="link forgot-link"> forgot password</a>
+            <button class="submit-btn">submit</button>
+            <a href="" class="link signup-link"> not regiseted yet? Signup-now </a>
+        </form>
+    </div>
+</body>
+
+</html>
