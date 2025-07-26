@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+</head>
+
+<body class="bg-green-500 md:bg-red-300  lg:bg-blue-400">
+    <!-- for medium secreen scize md is used -->
+    <header>
+        <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900">First Link</a>
+            <a class="mr-5 hover:text-gray-900">Second Link</a>
+            <a class="mr-5 hover:text-gray-900">Third Link</a>
+            <a class="mr-5 hover:text-gray-900">Fourth Link</a>
+
+        </nav>
+        <button class="inline-flex items-center bg-blue-100 border-0 py-1 px-3 focus:outline-none  rounded text-base mt-4 md:mt-0">Button
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+             <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+        </button>
+    </header>
+    <main>
+        <article>
+            <section class="">
+                <div class=" container mx-auto grid  grid-cols-1 md:grid-cols-12 h-screen md:h-[70vh] ">
+                    <!-- overflow hidden is used to hidden unwanted text -->
+                    <div class=" col-span-8 space-y-4 my-auto order-last md:order-first text-center md:text-left">
+                        <h1 class="text-3xl md:text-6xl font-bold">website title</h1>
+                        <p class="text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut accusamus perferendis voluptatem voluptate cumque necessitatibus eaque hic, numquam eos perspiciatis.
+                        </p>
+                        <div class="flex gap-4 justify-center md-justify-start">
+                            <button class="bg-blue-500 hover:bg-blue-700 duration-300 text-white py-3 px-4 rounded-md">primary</button>
+                            <button class="bg-blue-500 text-white py-3 px-4 rounded-md">secondary</button>
+                        </div>
+                    </div>
+                    <div class=" col-span-4 my-auto">
+                        <img src="https://th.bing.com/th/id/OIP.oEUHHT0alGHaTMUz7iY17gHaEx?r=0&rs=1&pid=ImgDetMain&cb=idpwebp2&o=7&rm=3">
+                    </div>
+                </div>
+            </section>
+        </article>
+        <article>
+            <section class="bg-white py-10  ">
+                <h3 class="text-4xl font-bold text-center my-6">feature section</h3>
+                <div class="container mx-auto  grid grid-cols-1  md:grid-cols-3 gap-6">
+                    <div class="p-10 rounded-lg shadow-lg text-center">
+                        <i class="fa-solid fa-rocket fa-beat fa-5x"></i>
+                        <h4 class="text-3xl font-bold">feature title 1</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quos placeat beatae porro, voluptatem quasi et. Recusandae culpa reprehenderit quisquam.</p>
+                        <button class="bg-blue-500 text-white p-3 w-full rounded-md">learn more</button>
+                    </div>
+                    <div class="p-10 rounded-lg shadow-lg text-center">
+                        <i class="fa-solid fa-rocket fa-beat fa-5x"></i>
+                        <h4 class="text-3xl font-bold">feature title 1</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quos placeat beatae porro, voluptatem quasi et. Recusandae culpa reprehenderit quisquam.</p>
+                        <button class="bg-blue-500 text-white p-3 w-full rounded-md">learn more</button>
+                    </div>
+
+                    <div class=" p-10 rounded-lg shadow-lg text-center">
+                        <i class="fa-solid fa-rocket fa-beat fa-5x"></i>
+                        <h4 class="text-3xl font-bold">feature title 1</h4>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex quos placeat beatae porro, voluptatem quasi et. Recusandae culpa reprehenderit quisquam.</p>
+                        <button class="bg-blue-500 text-white p-3 w-full rounded-md">learn more</button>
+                    </div>
+
+
+                </div>
+            </section>
+            <section class="bg-white py-10 relative">
+                <h3 class="text-4xl font-bold text-center mb-10"> our services</h3>
+                <div class="container px-8 md:px-0 mx-auto grid  md:grid-cols-12 grid-cols-1">
+                    <div class="col-span-4">
+                        <img class="w-full" src="third.png" alt="right">
+                    </div>
+                    <div class="col-span-8">
+                        <h2>service title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia corporis, deleniti aliquid error eius modi? Veritatis, cum mollitia? Enim autem repellendus magni facilis repellat libero illo, deleniti hic corrupti!</p>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+                            read more
+
+                        </button>
+
+                    </div>
+                </div>
+                <div class="container px-8 md:px-0 mx-auto grid  md:grid-cols-12 grid-cols-1">
+                    <div class="col-span-4 order-first md:order-last">
+                        <img class="w-full" src="third.png" alt="right">
+                    </div>
+                    <div class="col-span-8">
+                        <h2>service title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia corporis, deleniti aliquid error eius modi? Veritatis, cum mollitia? Enim autem repellendus magni facilis repellat libero illo, deleniti hic corrupti!</p>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+                            read more
+
+                        </button>
+
+                    </div>
+                </div>
+                <div class="container px-8 md:px-0 mx-auto grid  md:grid-cols-12 grid-cols-1">
+                    <div class="col-span-4">
+                        <img class="w-full" src="third.png" alt="right">
+                    </div>
+                    <div class="col-span-8">
+                        <h2>service title</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia corporis, deleniti aliquid error eius modi? Veritatis, cum mollitia? Enim autem repellendus magni facilis repellat libero illo, deleniti hic corrupti!</p>
+                        <button class="bg-blue-500 text-white px-4 py-2 rounded-md">
+                            read more
+
+                        </button>
+
+                    </div>
+                </div>
+
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <div class="bg-gray-800 text-white py-6">
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
+                <div class="col-span-6 md:col-span-6 space-y-4">
+                    <h3 class="font-bold text-3xl ">website titile</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laudantium consectetur laboriosam beatae tenetur sapiente voluptates perferendis quae nulla obcaecati.
+                    </p>
+                    <p class="font-bold"> all right reserved &copy; 2025</p>
+                </div>
+                <div class="col-span-2">
+                    <h3> important link</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">contact us</a></li>
+                        <li><a href="">help</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-span-2">
+                    <h3> important link</h3>
+                    <ul class="mt-4 space-y-3">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">about us</a></li>
+                        <li><a href="">contact us</a></li>
+                        <li><a href="">help</a></li>
+                    </ul>
+
+                </div>
+                <div class="col-span-6 md:col-span-2">
+                    <h3 class="text-xl space-y-3">social link</h3>
+                    <ul class="space-y-3 mt-4">
+                        <li class="flex flex-col gap-2">
+                            <a href="">
+                                <i class="fa-brands fa-facebook"></i>FACEBOOK
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>INSTAGRAM
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-linkedin"></i>LINKED-IN
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-github"></i>GITHUB
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
